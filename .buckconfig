@@ -1,0 +1,13 @@
+[alias]
+  approver-annotator = //:approver-annotator
+  plugin = //:approver-annotator
+
+[java]
+  src_roots = java, resources
+
+[project]
+  ignore = .git
+
+[cache]
+  mode = dir
+  dir = buck-out/cache
